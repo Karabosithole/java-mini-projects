@@ -18,21 +18,9 @@ public class Main {
     }
 
     //random method to get what number a certain face of the die has.
-    public int getFace() {
-        Random random = new Random();
-        int rand = 1;
-        for (rand = 1; rand < 7; ++rand) {
+    public void getFace() {
 
-        }
-        return rand;
 
     }
 }
-//        while (true) {
-//            rand = random.nextInt(1,7);
-//            if(rand !=0) break;
-//        }
-//        System.out.print(rand);
-//        return rand;
-
 
