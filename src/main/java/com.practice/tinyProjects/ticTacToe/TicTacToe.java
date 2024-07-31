@@ -271,7 +271,7 @@ public class TicTacToe implements ActionListener{
                         buttons[i].setText("O");
                         player1_turn=true;
                         textfield.setText("X turn");
-                        check();
+                        check() ;
                 }
             }
 
