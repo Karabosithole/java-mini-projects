@@ -15,6 +15,26 @@ public class Collatz {
 
     static void NumberCheck (int N){
 
+        if (N==1) {
+            System.out.println(N);
+        }else{
+            System.out.print("here goes: " +N);
+            while (N>1){
+
+            if (N%2==0){
+                N=N/2;
+
+            } else {
+                N = 3 * N + 1;
+            }
+                System.out.print(", " +N);
+        }
+
+//System.out.println(", " +N);
+
+
+        }
+
 
 
     }
@@ -25,6 +45,7 @@ public class Collatz {
         int N = scanner.nextInt();
 
         NumberCheck(N);
+        scanner.close();
 
 
 
