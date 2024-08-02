@@ -29,14 +29,8 @@ public class Collatz {
             }
                 System.out.print(", " +N);
         }
-
 //System.out.println(", " +N);
-
-
         }
-
-
-
     }
 
     public static void main(String args[]) {
@@ -46,8 +40,6 @@ public class Collatz {
 
         NumberCheck(N);
         scanner.close();
-
-
 
     }
 }
