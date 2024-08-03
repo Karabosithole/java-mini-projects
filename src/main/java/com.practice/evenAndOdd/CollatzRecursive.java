@@ -12,15 +12,14 @@ import java.util.Scanner;
 public class CollatzRecursive {
 
     static void CheckNumbers (int N){
-        System.out.println(N);
+        System.out.print(N+ " ");
         if (N == 1) {
-            System.out.print(", "+N);
+//            System.out.print(", "+N);
         } else if (N%2 ==0) {
             CheckNumbers(N/2);
         }else{
             CheckNumbers( 3*N + 1);
         }
-
 
     }
 
