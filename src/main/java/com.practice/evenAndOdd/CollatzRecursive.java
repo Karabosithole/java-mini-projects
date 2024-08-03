@@ -15,6 +15,10 @@ public class CollatzRecursive {
         System.out.println(N);
         if (N == 1) {
             System.out.print(", "+N);
+        } else if (N%2 ==0) {
+            N=N/2;
+        }else{
+            N = 3*N + 1;
         }
 
 
