@@ -16,9 +16,9 @@ public class CollatzRecursive {
         if (N == 1) {
             System.out.print(", "+N);
         } else if (N%2 ==0) {
-            N=N/2;
+            CheckNumbers(N/2);
         }else{
-            N = 3*N + 1;
+            CheckNumbers( 3*N + 1);
         }
 
 
