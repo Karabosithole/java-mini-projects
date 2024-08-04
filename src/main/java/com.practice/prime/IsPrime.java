@@ -26,13 +26,8 @@ public class IsPrime {
                System.out.println(num + " is a prime number.");
            } else {
                System.out.println(num + " is not a prime number.");
-
            }
-
-
-
    }
-
 
     static void main(String args []){
         Scanner scanner = new Scanner(System.in);
@@ -40,6 +35,7 @@ public class IsPrime {
         int num = scanner.nextInt();
 
        primeNumberCheck(num);
+
        scanner.close();
 
     }
