@@ -11,7 +11,7 @@ public class IsPrime {
    public static void primeNumberCheck(int num) {
        boolean isPrime = true;
        if (num <= 1) {
-       System.out.print(num + " isn't that special");
+       System.out.println(num + " isn't that special");
 //           if (num <= 1) {
                isPrime = false;
        } else {
@@ -21,14 +21,22 @@ public class IsPrime {
                    break;
                    }
                }
+       }
+           if (isPrime) {
+               System.out.println(num + " is a prime number.");
+           } else {
+               System.out.println(num + " is not a prime number.");
+
            }
+
+
 
    }
 
 
     static void main(String args []){
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a number");
+        System.out.print("Enter a number ");
         int num = scanner.nextInt();
 
        primeNumberCheck(num);
