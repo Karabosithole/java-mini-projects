@@ -50,7 +50,7 @@ public class GoldbachConjecture {
 
         List<Integer> primes = getPrimes(num);
         getPrimes(num);
-
+        System.out.println("Prime numbers from 3 to " + num + ": " + primes);
 
         scanner.close();
 
