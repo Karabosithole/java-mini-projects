@@ -10,18 +10,20 @@ import java.util.Scanner;
 
 public class GoldbachConjecture {
 
-    public static void ReturningNumbersPrimeProducts(int num){
-        //this determines the 2 prime products to multiply by
+    public static List<Integer> getPrimes(int num) {
         List<Integer> list = new ArrayList<>();
 
-        for (int i =3 ; i <= Math.sqrt(num); i++){
+        // Loop from 3 to the given number and add primes to the list
+        for (int i = 3; i <= num; i++) {
+            if (isPrime(i)) {
                 list.add(i);
-
+            }
         }
-        System.out.print(list);
 
+        return list; // Return the list of primes
     }
-    public static boolean ChecksforPrime(int num){
+
+    public static boolean isPrime(int num){
         //tests for the input number to see if it prime
         if (num <= 1) return false; // Numbers less than or equal to 1 are not prime
 
@@ -46,7 +48,9 @@ public class GoldbachConjecture {
         System.out.print("Please input a number ");
         int num = scanner.nextInt();
 
-        ReturningNumbersPrimeProducts(num);
+        List<Integer> primes = getPrimes(num);
+        getPrimes(num);
+
 
         scanner.close();
 
