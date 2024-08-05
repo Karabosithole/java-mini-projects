@@ -9,7 +9,9 @@ import java.util.Scanner;
 */
 
 public class GoldbachConjecture {
+
     public static void ReturningNumbersPrimeProducts(int num){
+        //this determines the 2 prime products to multiply by
         List<Integer> list = new ArrayList<>();
 
         for (int i =3 ; i <= Math.sqrt(num); i++){
@@ -19,12 +21,25 @@ public class GoldbachConjecture {
         System.out.print(list);
 
     }
-    public static void ChecksforPrime(int num){
+    public static boolean ChecksforPrime(int num){
+        //tests for the input number to see if it prime
+        if (num <= 1) return false; // Numbers less than or equal to 1 are not prime
 
+        // Loop from 2 to the square root of the number
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) return false; // If divisible by any number other than 1 and itself, not prime
+        }
+        return true;
 
-        for (int i =3 ; i <= Math.sqrt(num); i++){
+//        for (int i =3 ; i <= Math.sqrt(num); i++){
+            /** eg check Example:
+            Consider checking if 29 is prime.
+            The square root of 29 is approximately 5.39.
+                    You only need to check divisibility for numbers up to 5 (i.e., 2, 3, and 5).
+            If none of these numbers divide 29, then 29 is prime.
+             */
 
-    }}
+    }
 
     static void main (String args []){
         Scanner scanner = new Scanner(System.in);
