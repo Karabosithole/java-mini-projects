@@ -48,19 +48,16 @@ public class GoldbachConjecture {
 
     }
 
-    static void main (String args []){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Please input a number ");
+        System.out.print("Please input a number: ");
         int num = scanner.nextInt();
 
         List<Integer> primes = getPrimes(num);
-//        getPrimes(num);
         System.out.println("Prime numbers from 3 to " + num + ": " + primes);
-      List<Integer> primes = getPrimes(num);
-        TwoPrimeSum(list);
+
+        TwoPrimeSum(primes);
 
         scanner.close();
-
-
     }
 }
