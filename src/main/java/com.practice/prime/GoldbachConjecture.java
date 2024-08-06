@@ -10,6 +10,11 @@ import java.util.Scanner;
 
 public class GoldbachConjecture {
 
+    public static void TwoPrimeSum(List<Integer> list){
+
+
+    }
+
     public static List<Integer> getPrimes(int num) {
         List<Integer> list = new ArrayList<>();
 
@@ -49,8 +54,10 @@ public class GoldbachConjecture {
         int num = scanner.nextInt();
 
         List<Integer> primes = getPrimes(num);
-        getPrimes(num);
+//        getPrimes(num);
         System.out.println("Prime numbers from 3 to " + num + ": " + primes);
+      List<Integer> primes = getPrimes(num);
+        TwoPrimeSum(list);
 
         scanner.close();
 
