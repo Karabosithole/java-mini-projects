@@ -13,4 +13,9 @@ package com.practice.prime;
  */
 
 public class CircularPrimes {
+
+
+    public static void main(String[] args){
+
+    }
 }
