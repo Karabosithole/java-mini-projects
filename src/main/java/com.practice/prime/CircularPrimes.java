@@ -13,6 +13,7 @@ package com.practice.prime;
  */
 
 public class CircularPrimes {
+    boolean isPirme = true;
 
 
     public static void main(String[] args){
