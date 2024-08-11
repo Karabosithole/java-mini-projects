@@ -37,7 +37,6 @@ public class IsPrime {
        primeNumberCheck(num);
 
        scanner.close();
-
     }
 }
 
