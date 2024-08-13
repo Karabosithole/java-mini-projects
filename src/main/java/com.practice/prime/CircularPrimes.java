@@ -1,5 +1,9 @@
 package com.practice.prime;
 
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Circular Prime : A circular prime is a prime number with the property
  * that the number generated at each intermediate step when cyclically permuting its
@@ -13,14 +17,20 @@ package com.practice.prime;
  */
 
 public class CircularPrimes {
+    public static
     boolean isPirme = true;
+    private List<Integer> numberCheck = new ArrayList <Integer>();
+
+    public List<Integer> getNumberCheck() {
+        return numberCheck;
+    }
 
     public static boolean isPrime(int num){
         //tests for the input number to see if it prime
         if (num <= 1) return false; // Numbers less than or equal to 1 are not prime
 
         // Loop from 2 to the square root of the number
-        for (int i = 2; i <= Math.sqrt(num); i++) {
+        for (int i = 3; i <= Math.sqrt(num); i++) {
             if (num % i == 0) return false; // If divisible by any number other than 1 and itself, not prime
         }
         return true;
