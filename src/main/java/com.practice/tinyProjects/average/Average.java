@@ -1,20 +1,31 @@
 package com.practice.tinyProjects.average;
 
+import java.util.Scanner;
+
 public class Average {
-
-
+    
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+        double numberCount =3;
 //Defining the numbers
-        int num1 = 4;
-        int num2 = 6;
-        int num3 = 17;
+
+        System.out.println("Please enter a number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.println("Please enter the next number ");
+        double num2 = scanner.nextDouble();
+
+        System.out.println("Please enter the next number ");
+        double num3 = scanner.nextDouble();
 
         //calculate the sum of the numbers
-        int sum = num1 +num2 +num3;
+        double sum = num1 +num2 +num3;
         //define how many numbers there are
-        int count = 3;
+
         //find the avarage of them
-        int avarage = sum /count;
+        double avarage = sum /numberCount;
 
 
         System.out.println(avarage);
