@@ -7,8 +7,8 @@ public class Primes {
     String userInput = newObject.nextLine();
 
 
-    Primes(){
+   public static void main (String args[]){
 
-    }
+   }
 
 }
