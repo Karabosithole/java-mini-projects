@@ -7,7 +7,6 @@ public class Average {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         double numberCount =3;
 //Defining the numbers
 
@@ -30,10 +29,7 @@ public class Average {
         //find the avarage of them
         double avarage = sum /numberCount;
 
-
         System.out.println(avarage);
-
-
 
     }
 }
