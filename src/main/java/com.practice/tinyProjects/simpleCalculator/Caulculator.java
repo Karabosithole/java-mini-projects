@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.simpleCalculator;
+package com.practice.tinyProjects.simpleCalculator.calculator;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class Caulculator {
         System.out.println("Please enter a number ");
         double number1 = scanner.nextDouble();
 
-        System.out.println("please enter another numberm");
+        System.out.println("please enter another number ");
         double number2 = scanner.nextDouble();
 
         scanner.close();
