@@ -16,6 +16,7 @@ public class Caulculator {
 
             System.out.println("Please enter another number ");
             number2 = scanner.nextDouble();
+
         }
 
         // You can add methods to retrieve these numbers later if needed
