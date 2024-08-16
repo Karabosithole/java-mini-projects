@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Caulculator {
 
-    public class NumberProcessor {
+    public static class NumberProcessor {
         private double number1;
         private double number2;
 
@@ -31,16 +31,45 @@ public class Caulculator {
 
     public static void main (String args[]){
 
-//        System.out.println("What operation would you like to procced with?");
-//        int num = scanner.nextInt();
-//        switch (num){
-//            case 1:
-//
-//        }
-//
-//        scanner.close();
-          // todo add a switch case for options for what they person wants to do.
+       NumberProcessor numberProcessor = new NumberProcessor();
+        numberProcessor.processNumberInputs();
 
+        double number1 = numberProcessor.getNumber1();
+        double number2 = numberProcessor.getNumber2();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What operation would you like to proceed with?");
+        System.out.println("1. Add");
+        System.out.println("2. Subtract");
+        System.out.println("3. Multiply");
+        System.out.println("4. Divide");
+
+        int choice = scanner.nextInt();
+
+        switch (choice) {
+            case 1:
+//                System.out.println("Result: " + (number1 + number2));
+                break;
+            case 2:
+//                System.out.println("Result: " + (number1 - number2));
+                break;
+            case 3:
+//                System.out.println("Result: " + (number1 * number2));
+                break;
+            case 4:
+                if (number2 != 0) {
+//                    System.out.println("Result: " + (number1 / number2));
+                } else {
+//                    System.out.println("Error: Division by zero");
+                }
+                break;
+            default:
+//                System.out.println("Invalid choice");
+                break;
+        }
+
+        scanner.close();
+    }
 
     }
 }
