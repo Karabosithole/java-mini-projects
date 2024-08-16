@@ -12,3 +12,5 @@ public class Primes {
    }
 
 }
+
+//stregnths and weaknesses did team miss goal how solve how to ensure quality and fix errors
