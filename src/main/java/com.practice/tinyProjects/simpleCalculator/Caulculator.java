@@ -2,6 +2,8 @@ package com.practice.tinyProjects.simpleCalculator;
 
 import java.util.Scanner;
 
+import static com.practice.tinyProjects.simpleCalculator.addition.Addition.addition;
+
 public class Caulculator {
 
     public static class NumberProcessor {
@@ -48,7 +50,7 @@ public class Caulculator {
 
         switch (choice) {
             case 1:
-//                System.out.println("Result: " + (number1 + number2));
+                addition(number1,number2);
                 break;
             case 2:
 //                System.out.println("Result: " + (number1 - number2));
