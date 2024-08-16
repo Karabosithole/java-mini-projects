@@ -3,6 +3,9 @@ package com.practice.tinyProjects.simpleCalculator;
 import java.util.Scanner;
 
 import static com.practice.tinyProjects.simpleCalculator.addition.Addition.addition;
+import static com.practice.tinyProjects.simpleCalculator.division.Division.division;
+import static com.practice.tinyProjects.simpleCalculator.multiplication.Multiplication.multiplication;
+import static com.practice.tinyProjects.simpleCalculator.subtraction.Subtraction.subtraction;
 
 public class Caulculator {
 
@@ -53,20 +56,16 @@ public class Caulculator {
                 addition(number1,number2);
                 break;
             case 2:
-//                System.out.println("Result: " + (number1 - number2));
+                subtraction (number1 ,number2);
                 break;
             case 3:
-//                System.out.println("Result: " + (number1 * number2));
+                multiplication ( number1, number2);
                 break;
             case 4:
-                if (number2 != 0) {
-//                    System.out.println("Result: " + (number1 / number2));
-                } else {
-//                    System.out.println("Error: Division by zero");
-                }
+                    division (number1,number2);
                 break;
             default:
-//                System.out.println("Invalid choice");
+                System.out.println("Invalid choice");
                 break;
         }
 
@@ -74,4 +73,3 @@ public class Caulculator {
     }
 
     }
-}
