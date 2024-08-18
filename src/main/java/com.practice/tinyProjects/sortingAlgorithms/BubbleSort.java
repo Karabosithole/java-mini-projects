@@ -1,6 +1,6 @@
-package com.practice.tinyProjects.bubbleSort;
+package com.practice.tinyProjects.sortingAlgorithms;
 
-public class Sort {
+public class BubbleSort {
 //    public class BubbleSort {
 //
 //        public static void bubbleSort(int[] arr) {
