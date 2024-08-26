@@ -2,6 +2,12 @@ package com.practice.prime;
 
 import java.util.Scanner;
 
+/** a prime number generator, prints all the prime numbers between the two inputs that the user has
+ * entered, cheking that the first number is bigger than the other,
+ * as I expand on this i will check which number is smaller and start from the smaller number, this includes
+ * negative numbers
+*/
+
 public class IsPrimeGenerator {
 
     public void numberChecker(int num){
