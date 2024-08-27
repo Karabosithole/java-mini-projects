@@ -18,7 +18,7 @@ public class IsPrimeGenerator {
                 isPrime = false;
 
             else {isPrime = true;
-            break;}
+            break; }
     }
 
 
