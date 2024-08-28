@@ -10,25 +10,25 @@ import java.util.Scanner;
 
 public class IsPrimeGenerator {
 
-    public static void numberChecker(int num) {
+    public static void numberChecker(int firstNum,int limit ) {
         boolean isPrime = true;
 
-        if (num <= 1) {
-            System.out.println(num + " is not prime");
+        if (firstNum <= 1) {
+            System.out.println("the prime numbers between" +firstNum + "and" + limit);
             return;
         }
 
-        for (int i = 2; i <= Math.sqrt(num); i++) {
-            if (num % i == 0) {
+        for (int i = 2; i <= Math.sqrt(firstNum); i++) {
+            if (firstNum % i == 0) {
                 isPrime = false;
                 break;
             }
         }
 
         if (isPrime) {
-            System.out.println(num + " is a prime number");
+            System.out.println(firstNum + " is a prime number");
         } else {
-            System.out.println(num + " is not prime");
+            System.out.println(firstNum + " is not prime");
         }
     }
 
@@ -37,9 +37,12 @@ public class IsPrimeGenerator {
 
     public void main (String args[]){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a number: ");
-        int num = scanner.nextInt();
-        numberChecker(num);
+        System.out.println("Please enter the start number: ");
+        int firstNum = scanner.nextInt();
+        System.out.println("Please enter the last number: ");
+        int limit = scanner.nextInt();
+        scanner.close();
+        numberChecker(firstNum, limit);
 
     }
 }
