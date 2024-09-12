@@ -11,6 +11,15 @@ import java.util.Scanner;
 public class GoldbachConjecture {
 
     public static void TwoPrimeSum(List<Integer> list){
+        int sum = 0;
+
+        // Loop through the list and sum the values
+        for (int num : list) {
+            sum += num;
+        }
+
+        // Print the sum
+        System.out.println("Sum of primes: " + sum);
 
 
     }
