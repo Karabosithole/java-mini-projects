@@ -63,6 +63,7 @@ public class FizzBuzz {
         int number = scanner.nextInt();
         FizzBuzz obj = new FizzBuzz();
         obj.fizzBuzzApplied(number);
+        scanner.close();
 
     }
 }

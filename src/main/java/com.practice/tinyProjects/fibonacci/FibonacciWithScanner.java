@@ -1,5 +1,7 @@
 package com.practice.tinyProjects.fibonacci;
 
+import java.util.Scanner;
+
 /**
  * This method calculates the nth number in the Fibonacci sequence.
  *
@@ -19,5 +21,18 @@ package com.practice.tinyProjects.fibonacci;
  * @return The Fibonacci number at the nth position.
  */
 
-public class Fibonacci {
+public class FibonacciWithScanner {
+
+    public void fibonacci(){
+
+
+    }
+
+    public static void main (String args []){
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Please enter a number: ");
+        int num = scanner.nextInt();
+    }
 }
