@@ -8,11 +8,19 @@ public class HelloWorld {
                 System.out.println("Hello world");
         }
 
-        public static void main(String[] args) {
+        public void addingNumbers(){
+               System.out.println(6+1);
+        }
 
+        public static void main(String[] args) {
+//
                 HelloWorld obj = new HelloWorld();  // Create an instance of MyClass
-                obj.printHelloWorld();        // Call the instance method
-//                System.out.println("Hello world");
+                obj.printHelloWorld(); // Call the instance method
+                obj.addingNumbers();// Call the instance method
+//
+
+//                printHelloWorld();  // Calls static printHelloWorld()
+//                addingNumbers();    // Calls static addingNumbers()
         }
 
 
