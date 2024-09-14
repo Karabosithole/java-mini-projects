@@ -31,13 +31,29 @@ public class FizzBuzz {
 
             if (number %3 !=0 && number%5 ==0){
                     System.out.println("Buzz");}
-
-
             }
 
         }
 
-
+///** another simpler way to do it*/
+//public void fizzBuzzApplied(int number) {
+//    // Check if divisible by both 3 and 5
+//    if (number % 3 == 0 && number % 5 == 0) {
+//        System.out.println("FizzBuzz");
+//    }
+//    // Check if divisible by 3 only
+//    else if (number % 3 == 0) {
+//        System.out.println("Fizz");
+//    }
+//    // Check if divisible by 5 only
+//    else if (number % 5 == 0) {
+//        System.out.println("Buzz");
+//    }
+//    // If neither, print the number
+//    else {
+//        System.out.println(number);
+//    }
+//}
 
 
     public static void main (String args []){
