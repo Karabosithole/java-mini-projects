@@ -23,7 +23,7 @@ import java.util.Scanner;
 
 public class FibonacciWithScanner {
 
-    public void fibonacci(){
+    public void fibonacci(int num){
 
 
     }
@@ -34,5 +34,7 @@ public class FibonacciWithScanner {
 
         System.out.println("Please enter a number: ");
         int num = scanner.nextInt();
+        FibonacciWithScanner obj = new FibonacciWithScanner();
+        obj.fibonacci(num);
     }
 }
