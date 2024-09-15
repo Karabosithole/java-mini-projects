@@ -24,9 +24,19 @@ import java.util.Scanner;
 public class FibonacciWithScanner {
 
     public void fibonacci(int num){
+        while (true) {
+            if (num >= 2)
+                break;}
 
 
-    }
+        }
+
+
+
+
+
+
+
 
     public static void main (String args []){
 
