@@ -1,5 +1,6 @@
 package com.practice.tinyProjects.fibonacci;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -24,9 +25,25 @@ import java.util.Scanner;
 public class FibonacciWithScanner {
 
     public void fibonacci(int num){
+        ArrayList <Integer> fibList = new ArrayList<Integer>();
+        int count = 0;
+        int a = 0;
+        int b = 1;
+
         while (true) {
-            if (num >= 2)
-                break;}
+            if (num >=2) {
+                break;
+            } else{
+
+
+            }
+
+
+        }
+
+
+
+
 
 
         }
@@ -42,7 +59,7 @@ public class FibonacciWithScanner {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter a number: ");
+        System.out.println("Please enter a number you want the fib sequence to end at: ");
         int num = scanner.nextInt();
         FibonacciWithScanner obj = new FibonacciWithScanner();
         obj.fibonacci(num);
