@@ -12,7 +12,7 @@ public class HelloWorld {
                System.out.println(6+1);
         }
 
-        public static void main(String[] args) {
+        public static void main(String [] args) {
 //
                 HelloWorld obj = new HelloWorld();  // Create an instance of MyClass
                 obj.printHelloWorld(); // Call the instance method

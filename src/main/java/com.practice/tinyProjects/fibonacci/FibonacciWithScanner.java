@@ -48,19 +48,13 @@ public class FibonacciWithScanner {
 
         }
 
-
-
-
-
-
-
-
-    public static void main (String args []){
+    public static void main (String [] args){
 
         Scanner scanner = new Scanner(System.in);
         // Prompt the user to input the number of Fibonacci numbers they want to generate
         System.out.println("Please enter a number you want the fib sequence to end at: ");
         int num = scanner.nextInt();
+        scanner.close();
 
         // Create an instance of FibonacciWithScanner and generate the Fibonacci sequence
         FibonacciWithScanner obj = new FibonacciWithScanner();

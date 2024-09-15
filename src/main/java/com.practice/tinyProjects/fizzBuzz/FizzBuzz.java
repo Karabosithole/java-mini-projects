@@ -56,7 +56,7 @@ public class FizzBuzz {
 //}
 
 
-    public static void main (String args []){
+    public static void main (String [] args){
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter a number");
