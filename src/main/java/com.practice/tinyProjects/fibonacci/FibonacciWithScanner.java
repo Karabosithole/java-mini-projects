@@ -30,21 +30,24 @@ public class FibonacciWithScanner {
         int a = 0;
         int b = 1;
 
-        while (true) {
-            if (num >=2) {
-                break;
-            } else{
-
-
-            }
-
-
+        if (num>0){
+            fibList.add(a);
+            count ++;
         }
 
+        if (num>1){
+            fibList.add(b);
+            count++;
+        }
 
-
-
-
+        while (count<num){
+            int c = a +b;
+            fibList.add(c);
+            count ++;
+            a =b;
+            b=c;
+        }
+        System.out.print(fibList);
 
         }
 
