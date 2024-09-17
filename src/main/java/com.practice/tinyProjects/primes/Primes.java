@@ -13,11 +13,10 @@ public class Primes {
 
         for (int i = 1; i <= Math.sqrt(userInput);i++) {
             if (i % userInput == 0) {
-                isPrime = true;
+                isPrime = false;
                 break;
-            }else {
-
             }
+
         }
 
 
