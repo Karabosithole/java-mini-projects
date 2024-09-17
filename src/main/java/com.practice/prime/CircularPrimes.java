@@ -29,7 +29,7 @@ public class CircularPrimes {
         //tests for the input number to see if it prime
         if (num <= 1) return false; // Numbers less than or equal to 1 are not prime
 
-        // Loop from 2 to the square root of the number
+        // Loop from 3 to the square root of the number
         for (int i = 3; i <= Math.sqrt(num); i++) {
             if (num % i == 0) return false; // If divisible by any number other than 1 and itself, not prime
         }
@@ -47,6 +47,8 @@ public class CircularPrimes {
 
 
     public static void main(String[] args){
+        CircularPrimes obj = new CircularPrimes();
+        obj.getNumberCheck();
 
     }
 }

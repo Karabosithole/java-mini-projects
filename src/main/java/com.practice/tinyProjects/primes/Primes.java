@@ -5,13 +5,23 @@ import java.util.Scanner;
 public class Primes {
     public void determainingPrime(int userInput){
 
-        if (userInput >0){
+        boolean isPrime = true;
+
+        if (userInput <0){
             System.out.println("Please enter a positive number");
         }
 
-        if (userInput>=2){
+        for (int i = 1; i <= Math.sqrt(userInput);i++) {
+            if (i % userInput == 0) {
+                isPrime = true;
+                break;
+            }else {
 
+            }
         }
+
+
+
     }
 
 

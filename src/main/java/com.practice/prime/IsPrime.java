@@ -17,7 +17,7 @@ public class IsPrime {
        } else {
            for (int i = 2; i <= Math.sqrt(num); i++) {
                if (num % i == 0) {
-                   isPrime = false;
+                   isPrime = true;
                    break;
                    }
                }
@@ -29,7 +29,7 @@ public class IsPrime {
            }
    }
 
-    static void main(String args []){
+    static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number ");
         int num = scanner.nextInt();
