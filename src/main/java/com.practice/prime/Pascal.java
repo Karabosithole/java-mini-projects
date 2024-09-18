@@ -10,4 +10,12 @@ package com.practice.prime;
  */
 
 public class Pascal {
+
+
+
+
+    void main (String [] args){
+
+
+    }
 }
