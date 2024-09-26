@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.fizzBuzz;
+package com.practice.algorithms.fizzBuzz;
 
 import java.util.Scanner;
 

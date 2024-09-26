@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.factors;
+package com.practice.maths.factors;
 
 import java.util.Scanner;
 

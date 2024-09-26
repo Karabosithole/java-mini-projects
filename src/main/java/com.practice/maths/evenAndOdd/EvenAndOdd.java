@@ -1,4 +1,4 @@
-package com.practice.evenAndOdd;
+package com.practice.maths.evenAndOdd;
 
 import java.util.Scanner;
 

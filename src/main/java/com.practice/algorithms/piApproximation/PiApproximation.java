@@ -1,1 +1,1 @@
-package com.practice.piApproximation;
+package com.practice.algorithms.piApproximation;

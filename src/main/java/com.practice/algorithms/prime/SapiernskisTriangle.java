@@ -1,4 +1,4 @@
-package com.practice.prime;
+package com.practice.algorithms.prime;
 
 public class SapiernskisTriangle {
 }

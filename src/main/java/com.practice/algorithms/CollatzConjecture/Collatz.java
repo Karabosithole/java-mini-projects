@@ -1,0 +1,45 @@
+package com.practice.algorithms.CollatzConjecture;
+
+import java.util.Scanner;
+
+/**Starting with any positive integer N,
+ * Collatz sequence is defined corresponding
+ * to n as the numbers formed by the following operations :
+
+ *If n is even, then n = n / 2.
+ *If n is odd, then n = 3*n + 1.
+ *Repeat above steps, until it becomes 1.
+ * */
+
+class Collatz {
+
+    static void NumberCheck (int N){
+
+        if (N==1) {
+            System.out.println(N);
+        }else{
+            System.out.print("here goes: " +N);
+            while (N>1){
+
+                if (N%2==0){
+                    N=N/2;
+
+                } else {
+                    N = 3 * N + 1;
+                }
+                System.out.print(", " +N);
+            }
+//System.out.println(", " +N);
+        }
+    }
+
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int N = scanner.nextInt();
+
+        NumberCheck(N);
+        scanner.close();
+
+    }
+}

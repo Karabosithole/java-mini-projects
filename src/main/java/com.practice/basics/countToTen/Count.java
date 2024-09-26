@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.countToTen;
+package com.practice.basics.countToTen;
 
 
 public class Count {

@@ -1,4 +1,4 @@
-package com.practice.prime;
+package com.practice.algorithms.prime;
 
 /**The number of entries in every line is equal to line number.
  * For example, the first line has “1“, the second line has “1 1“,

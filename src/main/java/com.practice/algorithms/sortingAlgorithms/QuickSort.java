@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.sortingAlgorithms;
+package com.practice.algorithms.sortingAlgorithms;
 
 public class QuickSort {
 }

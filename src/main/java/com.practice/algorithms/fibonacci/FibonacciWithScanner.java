@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.fibonacci;
+package com.practice.algorithms.fibonacci;
 
 import java.util.ArrayList;
 import java.util.Scanner;

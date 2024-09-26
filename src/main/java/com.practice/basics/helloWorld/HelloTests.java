@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.helloWorld;
+package com.practice.basics.helloWorld;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 

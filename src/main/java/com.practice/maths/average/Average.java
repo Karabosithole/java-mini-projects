@@ -1,4 +1,4 @@
-package com.practice.tinyProjects.average;
+package com.practice.maths.average;
 
 import java.util.Scanner;
 
