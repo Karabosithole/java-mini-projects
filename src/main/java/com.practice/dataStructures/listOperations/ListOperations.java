@@ -1,8 +1,17 @@
 package com.practice.dataStructures.listOperations;
+import java.util.ArrayList;
 
 public class ListOperations {
 
+
+
     //Add Elements
+    public static void AddElements (ArrayList<Integer> List2){
+
+       List2.add(2);
+       System.out.println(List2);
+
+    }
 
     //Insert Elements
 
@@ -27,4 +36,12 @@ public class ListOperations {
     //Reverse the List
 
     //Find Index of an Element
+
+    public static void main(String []args){
+
+        int [] listOfNumbers = {1,6,8,23,4,54,98};  // this type of array cannot be modified
+
+        ArrayList<Integer> List2 = new ArrayList<>();
+        AddElements(List2);
+    }
 }
