@@ -12,7 +12,11 @@ public class ListOperations {
        System.out.println(List2);
 
     }
+    public static void InsertElements(int [] listOfNumbers){
+        //TODO figure out how to turn a list back into an array so i can add to the list
 
+
+    }
     //Insert Elements
 
     //Remove Elements
@@ -42,6 +46,8 @@ public class ListOperations {
         int [] listOfNumbers = {1,6,8,23,4,54,98};  // this type of array cannot be modified
 
         ArrayList<Integer> List2 = new ArrayList<>();
+        ArrayList<Integer> List3 = new ArrayList<>();
         AddElements(List2);
+        InsertElements(listOfNumbers);
     }
 }
