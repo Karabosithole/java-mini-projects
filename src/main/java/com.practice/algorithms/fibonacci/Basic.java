@@ -19,7 +19,7 @@ class Basic {
         }
     }
 
-    // Driver Code
+    //Code that drives
     public static void main(String args[])
     {
         // Given Number N
