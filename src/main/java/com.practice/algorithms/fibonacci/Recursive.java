@@ -1,4 +1,4 @@
-package com.practice.algorithms.fibonaccia;
+package com.practice.algorithms.fibonacci;
 
 import java.io.*;
 

@@ -31,7 +31,7 @@ public class FibForLoop {
 
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please input a limit");
+        System.out.println("Please input a limit: ");
         int num =sc.nextInt();
         Fibs(num);
 

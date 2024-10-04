@@ -1,5 +1,8 @@
 package com.practice.algorithms.piApproximation;
 
+public class PiApproximation {
+
+    public static void MonteCarloMethod() {
 /**
  * Approximates the value of π (pi) using the Monte Carlo method.
  *
@@ -23,7 +26,9 @@ package com.practice.algorithms.piApproximation;
 
 //Todo
 
+    }
 
+    public static void LeibnizFormla() {
 /**
  * Approximates the value of π (pi) using the Leibniz formula.
  *
@@ -37,3 +42,6 @@ package com.practice.algorithms.piApproximation;
  */
 
 //Todo
+    }
+
+}
