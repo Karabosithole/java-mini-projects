@@ -15,6 +15,7 @@ public class EvenOdd {
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter a number: ");
         int num = sc.nextInt();
+        sc.close();
         newNumber(num);
 
 

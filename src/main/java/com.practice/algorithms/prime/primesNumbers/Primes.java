@@ -1,4 +1,4 @@
-package com.practice.algorithms.primesNumbers;
+package com.practice.algorithms.prime.primesNumbers;
 
 import java.util.Scanner;
 

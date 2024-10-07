@@ -1,5 +1,7 @@
 package com.practice.algorithms.prime;
 
+import java.util.Scanner;
+
 /**The number of entries in every line is equal to line number.
  * For example, the first line has “1“, the second line has “1 1“,
  * the third line has “1 2 1“,.. and so on.
@@ -11,10 +13,23 @@ package com.practice.algorithms.prime;
 
 public class Pascal {
 
+    static void triangle(int height){
+            for (int i= 1; i<=height;i++){
+                System.out.println(i);
+            }
+
+    }
+
 
 
 
     void main (String [] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input the height of the triangle");
+        int height = sc.nextInt();
+        sc.close();
+        triangle(height);
+
 
 
     }

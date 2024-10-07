@@ -24,15 +24,13 @@ public class FibForLoop {
         }
         System.out.println();
 
-
     }
-
-
 
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Please input a limit: ");
         int num =sc.nextInt();
+        sc.close();
         Fibs(num);
 
 

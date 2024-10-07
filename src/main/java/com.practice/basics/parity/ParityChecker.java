@@ -30,6 +30,7 @@ public class ParityChecker {
         ParityChecker checker = new ParityChecker();
         System.out.println("Please enter a number to check for parity: ");
         int num = sc.nextInt();
+        sc.close();
 
         if (checker.isEven(num)) {
             System.out.println("Number is Even");
