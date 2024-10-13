@@ -15,6 +15,16 @@ public class BubbleSort {
     public static void bubbleSort(int [] numbers){
 
 
+
+
+    }
+
+    public static void sortArry(int [] numbers){
+
+        for (int i = 0;i< numbers.length;i++){
+
+        }
+
     }
 
 
@@ -24,10 +34,10 @@ public class BubbleSort {
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter the length you want your array: ");
         int n = sc.nextInt(); //user decides on the length of the array
-        int [] a = new int[n]; // creating a new array
+        int [] numbers = new int[n]; // creating a new array
 
         for (int i = 0;i<n;i++){
-            a[i] = sc.nextInt(); // Assign each input value to the array
+            numbers[i] = sc.nextInt(); // Assign each input value to the array
         }
         sc.close();
 

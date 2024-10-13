@@ -12,34 +12,65 @@ public class ListOperations {
        System.out.println(List2);
 
     }
+    //Insert Elements
     public static void InsertElements(int [] listOfNumbers){
-        //TODO figure out how to turn a list back into an array so i can add to the list
+
 
 
     }
-    //Insert Elements
 
     //Remove Elements
+    public static void RemovingElements(){
+
+    }
 
     //Access Elements
+    public static void AccessingElements(){
+
+    }
 
     //Update Elements
+    public static void UpdateElements(){
+
+    }
 
     //Size of the List
+    public static void SizeChecker(){}
 
     //Check if the List Contains an Element
+    public static void CheckContainingElements(){
+
+    }
 
     //Iterate Over the List
+    public static void IterateOverElements(){
+
+    }
 
     //Sort the List
+    public static void SortList(){
+
+    }
 
     //Clear the List
+    public static void ClearList(){
+
+    }
 
     //Convert Array to List
+    public static void ConverToArray(){
+
+    }
 
     //Reverse the List
+    public static void ReverseList(){
+
+    }
 
     //Find Index of an Element
+    public static void FindIndexOfElement(){
+
+    }
 
     public static void main(String []args){
 
