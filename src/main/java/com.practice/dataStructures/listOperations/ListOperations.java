@@ -9,11 +9,14 @@ public class ListOperations {
     public static void AddElements (ArrayList<Integer> List2){
 
        List2.add(2);
+       List2.add(9);
+       List2.add(100);
        System.out.println(List2);
 
     }
     //Insert Elements
-    public static void InsertElements(int [] listOfNumbers){
+    public static void InsertElements(){
+    ArrayList <Integer> ListInsert = new ArrayList<>();
 
 
 
@@ -21,6 +24,7 @@ public class ListOperations {
 
     //Remove Elements
     public static void RemovingElements(){
+
 
     }
 
@@ -35,7 +39,10 @@ public class ListOperations {
     }
 
     //Size of the List
-    public static void SizeChecker(){}
+    public static void SizeChecker(){
+        int [] Prac = {1,4,5,7,9};
+        System.out.println(Prac.length);
+    }
 
     //Check if the List Contains an Element
     public static void CheckContainingElements(){
@@ -79,6 +86,7 @@ public class ListOperations {
         ArrayList<Integer> List2 = new ArrayList<>();
         ArrayList<Integer> List3 = new ArrayList<>();
         AddElements(List2);
-        InsertElements(listOfNumbers);
+//        InsertElements(listOfNumbers);
+        SizeChecker();
     }
 }
