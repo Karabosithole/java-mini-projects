@@ -1,5 +1,6 @@
 package com.practice.dataStructures.listOperations;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ListOperations {
 
@@ -15,71 +16,71 @@ public class ListOperations {
 
     }
     //Insert Elements
-    public static void InsertElements(){
-    ArrayList <Integer> ListInsert = new ArrayList<>();
-
-
+    public static void InsertElements(ArrayList<Integer> List2){
+        List2.add(1,5);
 
     }
 
     //Remove Elements
-    public static void RemovingElements(){
-
+    public static void RemovingElements(ArrayList<Integer> List2){
+        List2.remove(2);
 
     }
 
     //Access Elements
-    public static void AccessingElements(){
+    public static void AccessingElements(ArrayList<Integer> List2){
+
 
     }
 
     //Update Elements
-    public static void UpdateElements(){
+    public static void UpdateElements(ArrayList<Integer> List2){
 
     }
 
     //Size of the List
-    public static void SizeChecker(){
+    public static void SizeChecker(ArrayList<Integer> List2){
         int [] Prac = {1,4,5,7,9};
         System.out.println(Prac.length);
     }
 
     //Check if the List Contains an Element
-    public static void CheckContainingElements(){
+    public static void CheckContainingElements(ArrayList<Integer> List2){
 
     }
 
     //Iterate Over the List
-    public static void IterateOverElements(){
+    public static void IterateOverElements(ArrayList<Integer> List2){
 
     }
 
     //Sort the List
-    public static void SortList(){
+    public static void SortList(ArrayList<Integer> List2){
 
     }
 
     //Clear the List
-    public static void ClearList(){
+    public static void ClearList(ArrayList<Integer> List2){
 
     }
 
     //Convert Array to List
-    public static void ConverToArray(){
+    public static void ConverToArray(ArrayList<Integer> List2){
 
     }
 
     //Reverse the List
-    public static void ReverseList(){
+    public static void ReverseList(ArrayList<Integer> List2){
 
     }
 
     //Find Index of an Element
-    public static void FindIndexOfElement(){
+    public static void FindIndexOfElement(ArrayList<Integer> List2){
 
     }
 
     public static void main(String []args){
+        //TODO add a switch case statement here make it so the user can add what ever to one list, not many.
 
         int [] listOfNumbers = {1,6,8,23,4,54,98};  // this type of array cannot be modified
 
@@ -88,5 +89,9 @@ public class ListOperations {
         AddElements(List2);
 //        InsertElements(listOfNumbers);
         SizeChecker();
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Please pic an option");
+        System.out.println("");
     }
 }
