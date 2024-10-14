@@ -7,28 +7,29 @@ public class ListOperations {
 
 
     //Add Elements
-    public static void AddElements (ArrayList<Integer> List2){
+    public static void AddElements (ArrayList<Integer> List1){
 
-       List2.add(2);
-       List2.add(9);
-       List2.add(100);
-       System.out.println(List2);
+       List1.add(2);
+       List1.add(9);
+       List1.add(100);
+       System.out.println(List1);
 
     }
     //Insert Elements
-    public static void InsertElements(ArrayList<Integer> List2){
-        List2.add(1,5);
+    public static void InsertElements(ArrayList<Integer> List1){
+        List1.add(1,5);
 
     }
 
     //Remove Elements
-    public static void RemovingElements(ArrayList<Integer> List2){
-        List2.remove(2);
+    public static void RemovingElements(ArrayList<Integer> List1){
+        List1.remove(2);
 
     }
 
     //Access Elements
-    public static void AccessingElements(ArrayList<Integer> List2){
+    public static void AccessingElements(ArrayList<Integer> List1){
+        System.out.println(List1.get(2));
 
 
     }
@@ -84,11 +85,11 @@ public class ListOperations {
 
         int [] listOfNumbers = {1,6,8,23,4,54,98};  // this type of array cannot be modified
 
-        ArrayList<Integer> List2 = new ArrayList<>();
+        ArrayList<Integer> List1 = new ArrayList<>();
         ArrayList<Integer> List3 = new ArrayList<>();
-        AddElements(List2);
+        AddElements(List1);
 //        InsertElements(listOfNumbers);
-        SizeChecker();
+        SizeChecker(List1);
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Please pic an option");
