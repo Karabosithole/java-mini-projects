@@ -47,6 +47,10 @@ public class ListOperations {
 
     //Check if the List Contains an Element
     public static void CheckContainingElements(ArrayList<Integer> List2){
+        if (List2.contains(2)){
+            System.out.println("Yes this element is in the list");
+        }
+
 
     }
 
