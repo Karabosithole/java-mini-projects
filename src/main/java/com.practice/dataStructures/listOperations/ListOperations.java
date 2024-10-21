@@ -40,9 +40,8 @@ public class ListOperations {
     }
 
     //Size of the List
-    public static void SizeChecker(ArrayList<Integer> List2){
-        int [] Prac = {1,4,5,7,9};
-        System.out.println(Prac.length);
+    public static void SizeChecker(ArrayList<Integer> List1){
+        System.out.println(List1.size());
     }
 
     //Check if the List Contains an Element
@@ -90,13 +89,53 @@ public class ListOperations {
         int [] listOfNumbers = {1,6,8,23,4,54,98};  // this type of array cannot be modified
 
         ArrayList<Integer> List1 = new ArrayList<>();
-        ArrayList<Integer> List3 = new ArrayList<>();
-        AddElements(List1);
-//        InsertElements(listOfNumbers);
-        SizeChecker(List1);
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Please pic an option");
+        int n = sc.nextInt();
+
+        switch (n){
+            case 1:
+                AddElements (List1);
+                break;
+            case 2:
+                InsertElements(List1);
+                break;
+            case 3:
+                RemovingElements(List1);
+                break;
+            case 4:
+                AccessingElements(List1);
+                break;
+            case 5:
+                UpdateElements( List1);
+                break;
+            case 6:
+                SizeChecker( List1);
+                break;
+            case 7:
+                CheckContainingElements(List1);
+                break;
+            case 8:
+                IterateOverElements(List1);
+                break;
+            case 9:
+                SortList(List1);
+                break;
+            case 10:
+                ClearList(List1);
+                break;
+            case 11:
+                ConverToArray(List1);
+                break;
+            case 12:
+                ReverseList(List1);
+                break;
+            case 13:
+                FindIndexOfElement(List1);
+                break;
+
+        }
         System.out.println("");
     }
 }
