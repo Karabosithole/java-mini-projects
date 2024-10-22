@@ -5,9 +5,6 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class ListOperations {
-
-
-
     //Add Elements
     public static void AddElements (ArrayList<Integer> list1){
         Scanner scanner = new Scanner(System.in);
@@ -42,7 +39,6 @@ public class ListOperations {
         while(continueAdding == 'y'|| continueAdding =='Y');
 //        list1.add(1,5);
 //        System.out.println("List after inserting 5 at index 1: " + list1);
-
     }
 
     //Remove Elements
@@ -135,7 +131,7 @@ public class ListOperations {
     }
 
     public static void main(String []args){
-        //TODO add a switch case statement here make it so the user can add what ever to one list, not many.
+
 
         ArrayList<Integer> list1 = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
