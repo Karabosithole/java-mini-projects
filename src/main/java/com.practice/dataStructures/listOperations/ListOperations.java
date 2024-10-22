@@ -1,5 +1,7 @@
 package com.practice.dataStructures.listOperations;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ListOperations {
@@ -9,7 +11,7 @@ public class ListOperations {
     //Add Elements
     public static void AddElements (ArrayList<Integer> list1){
         Scanner scanner = new Scanner(System.in);
-       char continueAdding;
+        char continueAdding;
        do{
            System.out.println("Enter an element to add to the list: ");
            int newElement = scanner.nextInt();
@@ -23,13 +25,29 @@ public class ListOperations {
     }
     //Insert Elements
     public static void InsertElements(ArrayList<Integer> list1){
-        list1.add(1,5);
-        System.out.println("List after inserting 5 at index 1: " + list1);
+        Scanner scanner = new Scanner(System.in);
+        char continueAdding;
+
+        do {
+            System.out.println("Enter an element to add to the list: ");
+            int newElement = scanner.nextInt();
+            System.out.println("Enter a spot you wish to add the element at, in this list: ");
+            int index = scanner.nextInt();
+            list1.add(index,newElement);
+            System.out.println("Current list: " + list1);
+            System.out.println("Do you want to add another element, in a particular spot? (y/n): ");
+            continueAdding = scanner.next().charAt(0);
+
+        }
+        while(continueAdding == 'y'|| continueAdding =='Y');
+//        list1.add(1,5);
+//        System.out.println("List after inserting 5 at index 1: " + list1);
 
     }
 
     //Remove Elements
     public static void RemovingElements(ArrayList<Integer> list1){
+
         if (!list1.isEmpty()) {
             list1.remove(2);
             System.out.println("List after removing element at index 2: " + list1);
@@ -96,13 +114,13 @@ public class ListOperations {
     //Convert Array to List
     public static void ConverToArray(ArrayList<Integer>list1){
         Integer[] array = list1.toArray(new Integer[0]);
-        System.out.println("Converted list to array: " + java.util.Arrays.toString(array));
+        System.out.println("Converted list to array: " + Arrays.toString(array));
 
     }
 
     //Reverse the List
     public static void ReverseList(ArrayList<Integer> list1){
-        java.util.Collections.reverse(list1);
+        Collections.reverse(list1);
         System.out.println("List after reversing: " + list1);
     }
 
