@@ -8,10 +8,17 @@ public class ListOperations {
 
     //Add Elements
     public static void AddElements (ArrayList<Integer> list1){
-
-       list1.add(2);
-
-        System.out.println("List after adding elements: " + list1);
+        Scanner scanner = new Scanner(System.in);
+       char continueAdding;
+       do{
+           System.out.println("Enter an element to add to the list: ");
+           int newElement = scanner.nextInt();
+           list1.add(newElement);
+           System.out.println("Current list: " + list1);
+           System.out.print("Do you want to add another element? (y/n): ");
+           continueAdding = scanner.next().charAt(0);
+       }
+       while(continueAdding == 'y' || continueAdding == 'Y');
 
     }
     //Insert Elements
