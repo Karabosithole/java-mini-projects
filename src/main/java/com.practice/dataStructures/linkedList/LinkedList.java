@@ -1,91 +1,50 @@
 package com.practice.dataStructures.linkedList;
 
+/**
+ * The LinkedList stores its items in "containers."
+ * The list has a link to the first container and each container
+ * has a link to the next container in the list. To add an element
+ * to the list, the element is placed into a new container and that
+ * container is linked to one of the other containers in the list.
+ * addFirst()	Adds an item to the beginning of the list
+ * addLast()	Add an item to the end of the list
+ * removeFirst()	Remove an item from the beginning of the list
+ * removeLast()	Remove an item from the end of the list
+ * getFirst()	Get the item at the beginning of the list
+ * getLast()	Get the item at the end of the list
+ */
 
 public class LinkedList {
-    // Node class for the linked list
-    private static class Node {
-        int data;
-        Node next;
 
-        Node(int data) {
-            this.data = data;
-            this.next = null;
-        }
+    // addFirst()	Adds an item to the beginning of the list
+    public void AddFirstElement(){
+
     }
 
-    private Node head; // Head of the linked list
+    //addLast()	Add an item to the end of the list
+    public void AddLastElement(){
 
-    // Constructor
-    public LinkedList() {
-        head = null;
     }
 
-    // Add an element to the end of the list
-    public void add(int data) {
-        // Your code here
+    //removeFirst()	Remove an item from the beginning of the list
+    public void RemoveFirstElement(){
+
     }
 
-    // Insert an element at a specific index
-    public void insert(int index, int data) {
-        // Your code here
+    //getFirst()	Get the item at the beginning of the list
+    public void GetFirstElement(){
+
     }
 
-    // Remove an element from the list
-    public void remove(int data) {
-        // Your code here
+    //getLast()	Get the item at the end of the list
+    public void GetLastElement(){
+
     }
 
-    // Access an element by index
-    public int get(int index) {
-        // Your code here
-        return -1; // Placeholder
-    }
 
-    // Update an element at a specific index
-    public void update(int index, int data) {
-        // Your code here
-    }
-
-    // Get the size of the list
-    public int size() {
-        // Your code here
-        return 0; // Placeholder
-    }
-
-    // Check if the list contains a specific element
-    public boolean contains(int data) {
-        // Your code here
-        return false; // Placeholder
-    }
-
-    // Print all elements in the list
-    public void printList() {
-        // Your code here
-    }
-
-    // Clear the entire list
-    public void clear() {
-        // Your code here
-    }
-
-    // Reverse the linked list
-    public void reverse() {
-        // Your code here
-    }
-
-    // Main method for testing
     public static void main(String[] args) {
-        LinkedList linkedList = new LinkedList();
 
-        // Example usage
-        linkedList.add(10);
-        linkedList.add(20);
-        linkedList.insert(1, 15);
-        linkedList.printList();
-        linkedList.remove(10);
-        linkedList.printList();
-        System.out.println("Size of the list: " + linkedList.size());
-        System.out.println("Element at index 1: " + linkedList.get(1));
+
     }
 }
 
